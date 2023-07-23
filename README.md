@@ -43,11 +43,11 @@ In the ERD model, there is a many-to-many relationship between **ROOMS** and **R
 ### Table **ROOMS** </br>
 <img src="./img/ROOMS.png" alt="ROOMS Table" width="500px" />
 
+### Table **RESERVATIONS** </br>
+<img src="./img/RESERVATIONS.png" alt="RESERVATIONS Table" width="500px" />
+
 ### Table **RES_ROOM** </br>
 <img src="./img/RES_ROOM.png" alt="RES_ROOM Table" width="250px" />
-
-### Table **RESERVATIONS** </br>
-<img src="./img/RESERVATIONS.png" alt="RESERVATIONS Table" width="550px" />
 
 ### Table **CUSTOMERS** </br>
 <img src="./img/CUSTOMERS.png" alt="CUSTOMERS Table" width="550px" />
@@ -55,7 +55,7 @@ In the ERD model, there is a many-to-many relationship between **ROOMS** and **R
 ### Table **BILLS** </br>
 <img src="./img/BILLS.png" alt="BILLS Table" width="450px" />
 
-## Other SQL Queries 
+## SQL Queries 
 ### Inner Join 
 ``` SQL 
 select RESERVATIONS.RES_ID, ROOMS.ROOM_NO, ROOMS.ROOM_TYPE,
